@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta content="pedido, pedido online, cena, delivery, promociones"
+    name="Keywords">
+  <meta content="Prueba las mejores pizzas al instante te la llevamos a tu casa"
+    name="description">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="css/estilos.css" rel="stylesheet">
+  <link href="img/iconocargando.png" rel="icon" type="image/png" alt="icono pizza">
+  <title>Delivery de pizzas</title>
+</head>
+
+<body>
+  <div class="contenedor">
+    <div id="header">
+      <div class="barraMenu">
+        <a class="link-logo" href="index.html">
+          <h1 class="logo">Louis pizzería</h1>
+        </a>
+        <div class="menuNavegacion">
+          <a href="index.html">Inicio</a> 
+          <a href="promociones.html">Promociones</a> 
+          <a href="pizzas.html">Pizzas</a>
+          <a href="delivery.html">Delivery</a> 
+          <a href="Nosotros.html">Nosotros</a>
+        </div>
+      </div>
+      <div class="subtitulo">
+        <h2>DELIVERY</h2>
+      </div>
+    </div>
+    <form action="">
+
+      
+
+      <fieldset>
+        <legend>Tú pedido:</legend> <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text"><br>
+        <label for="apellido">Apellido:</label> <input id="apellido"
+          type="text"><br>
+        <label for="numero_celular">Telefono:</label> <input id="numero_celular"
+          type="tel"><br>
+        <legend>Pizzas clásicas:</legend> <select class="opciones"
+          name="opciones_clasicas">
+          <option value="mozzarela"> Pizza Mozzarella </option>
+          <option value="napolitana"> Pizza Napolitana </option>
+          <option value="jamon_morrones"> Pizza Jamón y morrones </option>
+          <option value="ninguna"> Solamente especiales </option>
+        </select>
+        <legend>Pizzas especiales:</legend> <select class="opciones"
+          name="opciones_especiales">
+          <option value="pepperoni"> Pizza pepperoni</option>
+          <option value="cuatro_estaciones"> Pizza champigñones </option>
+          <option value="margarita"> Pizza Margarita </option>
+          <option value="ninguna"> Solamente clasicas </option>
+        </select><br>
+        <legend>Metodo de pago:</legend>
+        <div> Efectivo </div><input name="metodo_De_pago" type="radio"
+          value="efectivo">
+        <div> Tarjeta de Credito </div><input name="metodo_De_pago" type="radio"
+          value="credito"><br>
+        <div> Acepto términos y condiciones </div><input name="acepta"
+          type="checkbox" value="1"><br>
+        <input class="opciones" type="reset"
+          value="Eliminar pedido"> <input class="opciones"
+          type="submit" value="Enviar pedido">
+      </fieldset>
+    </form>
+    <div class="footer-">
+      <div class="footerMenu">
+        <h4>Menu</h4>
+        <ul>
+          <li>
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="promociones.html">Promociones</a>
+          </li>
+          <li>
+            <a href="pizzas.html">Pizzas</a>
+          </li>
+          <li>
+            <a href="delivery.html">Delivery</a>
+          </li>
+          <li>
+            <a href="nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+      <div class="redesFooter">
+        <h4>Redes sociales</h4>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.whatsapp.com/">Whatsapp</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/">Twitter</a>
+          </li>
+        </ul>
+      </div>
+      <div class="contactoFooter">
+        <h4>Telefonos</h4>
+        <p>Sucursal Belgrano: 939391013</p>
+        <p>Sucursal Palermo : 029349777</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
